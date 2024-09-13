@@ -1,0 +1,23 @@
+{
+  "name": "workshop-1",
+  "version": "1.0.0",
+  "description": "workshop-1",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "npx eslint ./src || exit 0",
+    "lint:fix": "npx eslint ./src --fix || exit 0"
+  },
+  "keywords": [],
+  "contributors": [
+  "Leila Nikkheslat <ln223kd@student.lnu.se>", 
+  "bs222eh@student.lnu.se. Beatriz Sanssi"], 
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.4.4"
+  }
+}
